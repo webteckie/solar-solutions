@@ -1,10 +1,10 @@
 import { cleanup, fireEvent, render, screen } from '@testing-library/react';
-import UseStateTraining from './UseStateTraining'
+import Welcome from './Welcome'
 
 afterEach(cleanup);
 
 it('should show prop one', async () => {
-    render(<UseStateTraining propOne='Prop One' />);
-    const propText = screen.getByText(/Prop One/i)
+    render(<Welcome title='Hello!' />);
+    const propText = screen.getByText(/Hello!/i)
     expect(propText).toBeTruthy()
 });
