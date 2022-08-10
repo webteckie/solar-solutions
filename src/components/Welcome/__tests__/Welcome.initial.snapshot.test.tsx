@@ -1,4 +1,4 @@
-import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+import { cleanup, render } from '@testing-library/react';
 import Welcome from '../Welcome'
 
 afterEach(cleanup);
