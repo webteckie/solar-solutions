@@ -1,4 +1,4 @@
-# React Hooks Tutorial With Vite App
+# Solar Enery With Vite App
 
 ## Setup
 Requirements:
